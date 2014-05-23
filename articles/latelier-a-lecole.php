@@ -32,19 +32,19 @@
 
         <p>Nous avons ensuite travaillé au redesign de l’école et imaginé « notre école en beaucoup mieux », nous l’avons traduite en mots et en images avec des tampons et de la gravure. Une publication a abouti ce travail, réunissant les propositions de chacun des élèves pour faire évoluer l’école.</p>
 
-        <p><img class="alignnone size-large wp-image-3133" src="img/img_livre" alt="img_livre" width="700" height="466"></p>
+        <p><img class="alignnone size-large wp-image-3133" src="img/img_livre.jpg" alt="img_livre" width="700" height="466"></p>
 
-        <p><img class="alignnone size-large wp-image-3134" src="img/img_impression" alt="img_impression" width="700" height="466"></p>
+        <p><img class="alignnone size-large wp-image-3134" src="img/img_impression.jpg" alt="img_impression" width="700" height="466"></p>
 
         <p>Puis nous avons construit de folles réactions en chaîne à base de billes, de dominos, de clous et de tuyaux. Nous apprenons les principes de l’électricité en construisant des villes de pâte à modeler avec des moteurs qui tournent et des lumières qui clignotent.</p>
 
-        <p><img class="alignnone size-large wp-image-3135" src="img/img_robot" alt="img_robot" width="700" height="466"></p>
+        <p><img class="alignnone size-large wp-image-3135" src="img/img_robot.jpg" alt="img_robot" width="700" height="466"></p>
 
-        <p><img class="alignnone size-large wp-image-3136" src="img/img_reactions_schema" alt="img_reactions_schema" width="700" height="466"></p>
+        <p><img class="alignnone size-large wp-image-3136" src="img/img_reactions_schema.jpg" alt="img_reactions_schema" width="700" height="466"></p>
 
         <p>Nous avons aussi développé notre propre alphabet et cherché comment à partir de quelques formes simples construire toutes les lettres. À partir de ce travail, <strong>nous avons conçu un atelier pour les DDays : nous vous proposons de jouer avec les formes que nous avons imaginées et de créer une composition qui raconte votre vision du design.&nbsp;</strong></p>
 
-        <p><img class="alignnone size-large wp-image-3137" src="img/img_typo" alt="img_typo" width="700" height="466"></p>
+        <p><img class="alignnone size-large wp-image-3137" src="img/img_typo.jpg" alt="img_typo" width="700" height="466"></p>
 
         <h4 id="la-publication-des-chercheurs">La publication des chercheurs</h4>
 
@@ -52,7 +52,7 @@
 
         <p>Cet outil aide à la mise en place de la méthode d’apprentissage par la recherche en intégrant ces étapes dans la démarche de travail. Il montre les possibilités de développements de nouvelles méthodes d’évaluation à l’école, stimulantes pour les élèves et qui donnent du sens à leur travail.</p>
 
-        <p><img class="alignnone size-large wp-image-3138" src="img/img_objet" alt="img_objet" width="700" height="466"> <img class="alignnone size-large wp-image-3140" src="img/img_interface" alt="img_interface" width="700" height="466"></p>
+        <p><img class="alignnone size-large wp-image-3138" src="img/img_objet.jpg" alt="img_objet" width="700" height="466"> <img class="alignnone size-large wp-image-3140" src="img/img_interface.jpg" alt="img_interface" width="700" height="466"></p>
     </div>
 </body>
 </html>

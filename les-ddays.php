@@ -9,7 +9,6 @@
 
 <body>
 
-
 	<?php
 		include 'templates/header.php';
 	 ?>
@@ -27,11 +26,9 @@
         </div>
     </div>
 
-    <footer class="wrap" role="contentinfo">
-        <div class="centered">
-            <div class="blocinfo">
-            </div>
-        </div>
-    </footer>
+	 <?php
+		include 'templates/footer.php';
+	?>
+
 </body>
 </html>
