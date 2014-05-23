@@ -45,7 +45,7 @@ $(document).ready( function () {
 			        scrollTop: $( 'article' ).offset().top
 			    }, 500, "easeInOutQuint");
 
-			}, 500);
+			}, 100);
 		});
 
 	});
