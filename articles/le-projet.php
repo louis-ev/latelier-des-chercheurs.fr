@@ -13,6 +13,12 @@
             <li class="entry items l-equipe">
                 <a href="#l-equipe" data-goto="l-equipe">L'équipe</a>
             </li>
+            <li class="entry items les-sites">
+                <a href="#les-sites" data-goto="les-sites">Les sites</a>
+            </li>
+            <li class="entry items contact">
+                <a href="#contact" data-goto="contact">Contact</a>
+            </li>
         </ul>
     </div>
 </nav>
@@ -75,7 +81,7 @@
 	</ul>
 	</p>
 
-    <h4 id="nous-contacter" class="">contact</h4>
+    <h4 id="contact" class="">contact</h4>
 
     <p><a href="mailto:pauline.gourlet@gmail.com" target="_blank">pauline.gourlet@gmail.com</a></p>
 

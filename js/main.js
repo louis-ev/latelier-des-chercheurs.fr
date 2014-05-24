@@ -10,7 +10,11 @@ function fixedmenu(scrollfromtop) {
 
 function detectPage () {
 	var href = $(window.location).attr("href");
-	var lastPhase = href.substring(href.lastIndexOf('/') + 1, href.indexOf('.php'));
+	if ( href.indexOf('.php') > 0 ) {
+		var lastPhase = href.substring(href.lastIndexOf('/') + 1, href.indexOf('.php') );
+	} else {
+		var lastPhase = href.substring(href.lastIndexOf('/') + 1 );
+	}
 	console.log(lastPhase);
 	var lienNav = $('#navigation a').filter(function() {
 		return $(this).attr('data-projet') === lastPhase;
@@ -26,6 +30,18 @@ function detectPage () {
 	}
 }
 
+function addHeight () {
+	var posBasLastH4 = $(".entry-content h4").last().offset().top + $(".entry-content h4").last().height();
+	var docHeight = $(document).height();
+
+	var espaceEnBas = docHeight - posBasLastH4
+
+	// si pas assez de marge en bas pour scroller convenablement le dernier item
+	if ( espaceEnBas < $(window).height() ) {
+		$(".entry-content").css("margin-bottom", $(window).height() - espaceEnBas);
+	}
+
+}
 
 
 $(document).ready( function () {
@@ -43,26 +59,47 @@ $(document).ready( function () {
 	});
 
 	detectPage ();
+	addHeight ();
 
-	$("#navigation a").on("click", function (e) {
+	$("document").on("click", "#navigation a", function (e) {
 		e.preventDefault();
 		link = $(this).attr('href');
 
-		$('article').load(link + ' article', function(){
+		$('#content').load(link + ' article', function(){
 			history.replaceState(null, null, link);
 			setTimeout(function(){
-				detectPage()
+				detectPage();
+				addHeight ();
+
 			    $('html, body').animate({
-			        scrollTop: $( 'article' ).offset().top - 10
-			    }, 500, "easeInOutQuint");
+			        scrollTop: $( 'article' ).offset().top - 20
+			    }, 800, "easeInOutQuint");
 
 			}, 100);
 		});
 
 	});
 
+	$("#aside-left a").on("click", function (e) {
+
+		e.preventDefault();
+		link = $(this).attr('href');
+		dataGoto = $(this).data("goto");
+
+		var lienNav = $('article h4').filter(function() {
+			return $(this).attr('id') === dataGoto;
+		});
+
+	    $('html, body').animate({
+	        scrollTop: lienNav.offset().top - 20
+	    }, 800, "easeInOutQuint");
+
+	});
+
 	$(window).scroll(function() {
-		fixedmenu(window.pageYOffset);
+		if ( $("#aside-left").length > 0 ) {
+			fixedmenu(window.pageYOffset);
+		}
 	});
 
 });
