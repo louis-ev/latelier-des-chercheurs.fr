@@ -61,21 +61,22 @@ $(document).ready( function () {
 	detectPage ();
 	addHeight ();
 
-	$("document").on("click", "#navigation a", function (e) {
+	$("body").on("click", "#navigation a", function (e) {
 		e.preventDefault();
 		link = $(this).attr('href');
+		console.log("plop");
 
 		$('#content').load(link + ' article', function(){
 			history.replaceState(null, null, link);
 			setTimeout(function(){
 				detectPage();
-				addHeight ();
+				addHeight();
 
 			    $('html, body').animate({
-			        scrollTop: $( 'article' ).offset().top - 20
+			        scrollTop: $('#content').offset().top - 20
 			    }, 800, "easeInOutQuint");
 
-			}, 100);
+			}, 400);
 		});
 
 	});
