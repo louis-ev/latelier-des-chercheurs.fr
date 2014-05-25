@@ -61,13 +61,15 @@ $(document).ready( function () {
 	detectPage ();
 	addHeight ();
 
-	$("body").on("click", "#navigation a", function (e) {
+	$("header").on("click", "#navigation a", function (e) {
 		e.preventDefault();
 		link = $(this).attr('href');
-		console.log("plop");
+		title = $(this).attr('title');
+
+		console.log("title" + title);
 
 		$('#content').load(link + ' article', function(){
-			history.replaceState(null, null, link);
+			history.pushState( null, title, link);
 			setTimeout(function(){
 				detectPage();
 				addHeight();
@@ -81,8 +83,9 @@ $(document).ready( function () {
 
 	});
 
-	$("#aside-left a").on("click", function (e) {
+	$("#content").on("click", "#aside-left a", function (e) {
 
+		console.log("click aside-left");
 		e.preventDefault();
 		link = $(this).attr('href');
 		dataGoto = $(this).data("goto");
