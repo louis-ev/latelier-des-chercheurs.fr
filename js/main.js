@@ -68,8 +68,11 @@ $(document).ready( function () {
 
 		console.log("title" + title);
 
+		$('#content article').css("opacity", .3);
+
 		$('#content').load(link + ' article', function(){
 			history.pushState( null, title, link);
+			$(this).hide().fadeIn(400);
 			setTimeout(function(){
 				detectPage();
 				addHeight();
