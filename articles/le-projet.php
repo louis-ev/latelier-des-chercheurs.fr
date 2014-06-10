@@ -26,7 +26,7 @@
 <div class="entry-content withsidebar">
     <h4 id="le-projet">Le projet</h4>
 
-    <p>Ce projet est conduit par une équipe d’étudiants-chercheurs de l’EnsadLab et un collectif de graphistes, L’hydre. Il s’inscrit dans un projet de recherche en design sur les environnements d’apprentissage et plus spécifiquement sur les plateformes d’élaboration et de partage de la connaissance. Un autre volet de cette recherche se focalise sur l’étude des pratiques pédagogiques innovantes. Ce projet est mené en partenariat avec le CRI et le programme Savanturiers.</p>
+    <p>Ce projet est conduit par une équipe d’étudiants-chercheurs de l’EnsadLab et un collectif de graphistes, L’hydre, et s'inscrit dans le cadre des Savanturiers (une école, un chercheur), programme initié et conduit par le CRI (Centre de Recherches Interdisciplinaires). Il participe à un projet de recherche en design sur les environnements d’apprentissage et plus spécifiquement sur les plateformes d’élaboration et de partage de la connaissance. Un autre volet de cette recherche se focalise sur l’étude des pratiques pédagogiques innovantes.</p>
 
     <figure id="attachment_3144" class="thumbnail wp-caption alignnone" style="width: 710px">
         <img class="wp-image-3144 size-large" src="img/img_screenflow.jpg" alt="img_screenflow" width="700" height="466">
@@ -45,26 +45,29 @@
     <h4 id="l-equipe" class="">L’équipe</h4>
 
 	<p>
-	<ul>
-    <li>L’hydre</li>
+		<ul>
 
-    <ul>
-	    <li>Juliette Mancini</li>
-    </ul>
+		    <li>L’hydre</li>
 
-    <li>Sociable Media – EnsadLab</li>
+		    <ul>
+			    <li>Juliette Mancini</li>
+		    </ul>
 
-    <ul>
-	    <li>Louis Eveillard</li>
+		    <li>Sociable Media – EnsadLab</li>
 
-	    <li>Ferdinand Dervieux</li>
+		    <ul>
+			    <li>Louis Eveillard</li>
 
-	    <li>Pauline Gourlet</li>
-    </ul>
+			    <li>Ferdinand Dervieux</li>
 
-	    <li>Les élèves de l’école des Alouettes</li>
+			    <li>Pauline Gourlet</li>
+		    </ul>
 
-	</ul>
+		    <li>L'équipe des Savanturiers</li>
+
+		    <li>Les élèves de l’école des Alouettes</li>
+
+		</ul>
 	</p>
 
     <h4 id="les-sites" class="">Les sites</h4>
@@ -72,6 +75,8 @@
 	<p>
 	<ul>
     <li><a href="http://eduplusdesign.ensadlab.fr" target="_blank">eduplusdesign.ensadlab.fr</a></li>
+
+    <li><a href="http://cri-paris.org/savanturiers-une-ecole-un-chercheur/" target="_blank">Les Savanturiers</a></li>
 
     <li><a href="http://sociablemedia.ensadlab.fr" target="_blank">sociablemedia.ensadlab.fr</a></li>
 
